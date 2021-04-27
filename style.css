@@ -1,0 +1,64 @@
+body {
+    background-color: #D1d3d4;
+    margin: 0px;
+}
+
+* {
+    font-family: "Georgia", serif;
+}
+
+.topbar {
+    align-items: center;
+    background: white;
+    height: 50px;
+    display: flex;
+    
+}
+
+.topbar h1 {
+    font-size: 30px;
+    font-family: "Zilla Slab";
+    width: 40%;
+    padding-left: 3px;
+    margin: auto;
+}
+
+.post {
+    background-color: white;
+    width: 40%;
+    margin: 45px auto;
+}
+
+.post-header {
+    height: 40px;
+}
+
+.post-header h2 {
+    float: left;
+    margin: 5px;
+}
+
+.post-header span {
+    float: right;
+    margin: 10px 5px;
+    color: grey;
+}
+
+.post-body {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+img {
+    
+    width: 100%;
+}
+
+.post-footer {
+    padding-bottom: 8px;
+}
+.post-footer p {
+    margin-left: 15px;
+    margin-top: 8px;
+}
